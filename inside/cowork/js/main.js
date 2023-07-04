@@ -204,7 +204,7 @@ $('.active-blog-slider').owlCarousel({
 							imsrc = "img/p (7).jpg";
 							MedCont= " ";
 							TitleCont= "ESCRITORIOS COMPARTIDOS";
-							DescCont= "Espacio común con variedad de estaciones pensadas para tu comodidad y la de tus invitados, contempla: <br> -Recepción." + '<br>' + "-5 estaciones de trabajo de 8 puestos con tomas eléctricas en escritorios." + "<br>" + "-Living room para 6, 3 y 2 personas " + "<br>" + "-Baños, femenino, masculino." + "<br>" + "80 lockers." + "<br>" + "-Puntos de acceso para impresoras. " + "<br>" + "-2 call room con 1 mesa, 1 silla.";
+							DescCont= "Espacio común con variedad de estaciones pensadas para tu comodidad y la de tus invitados, contempla: <br> <br> -Recepción." + '<br>' + "-5 estaciones de trabajo de 8 puestos con tomas eléctricas en escritorios." + "<br>" + "-Living room para 6, 3 y 2 personas." + "<br>" + "-Baños, femenino, masculino." + "<br>" + "-80 lockers." + "<br>" + "-Puntos de acceso para impresoras. " + "<br>" + "-2 call room.";
               
 							ColorCont= "#165b61";
 						break;
@@ -254,14 +254,14 @@ $('.active-blog-slider').owlCarousel({
 							imsrc = "img/p (12).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 2";
-							DescCont= "Espacio dispuesto para grupos de 6 personas con TV LED 40, aire acondicionado y tomas eléctricas en escritorio.";
+							DescCont= "Espacio dispuesto para grupos de 6 personas con TV LED 40', aire acondicionado y tomas eléctricas en escritorio.";
 							ColorCont= "#0731e6";
 						break;
 						case 'im9': 
 							imsrc = "img/p (3).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 6";
-							DescCont= "Con capacidad para equipos de trabajo de 6 personas, disponibilidad de TV LED 40, aire acondicionado, pizarra y tomas eléctricas en escritorio.";
+							DescCont= "Con capacidad para equipos de trabajo de 6 personas, disponibilidad de TV LED 40', aire acondicionado, pizarra y tomas eléctricas en escritorio.";
 							ColorCont= "#e60707";
 						break;
 						case 'im10': 
@@ -282,7 +282,7 @@ $('.active-blog-slider').owlCarousel({
 							imsrc = "img/p (1).jpg";
 							MedCont= " ";
 							TitleCont= "COCINA COMEDOR";
-							DescCont= "Para brunch, almuerzos, café con clientes y hasta para cantar cumpleaños a tus compañeros, este lugar esta diseñado para vos. <br> Mesa capacidad para 20 y 14 personas, desayunador para 4. <br> Horno, microondas, heladera, máquina expendedora de café, venta de golosinas, infusiones, filtro de agua y vajilla. ";
+							DescCont= "Para brunch, almuerzos, café con clientes y hasta para cantar cumpleaños a tus compañeros, este lugar esta diseñado para vos. <br> <br> -Mesa capacidad para 20 y 14 personas, desayunador para 4. <br> -Horno. <br> -Microondas. <br> -Heladera. <br> -Máquina expendedora de café. <br> -Venta de golosinas. <br> -Infusiones. <br> -Filtro de agua. <br> -Vajilla. ";
 							ColorCont= "#d22bdc";
 						break;
 						case 'im13': 
