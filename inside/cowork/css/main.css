@@ -3633,7 +3633,7 @@ padding: 0% 5%;
   }
   .floatingCont{
     flex-direction: column;
-    
+    height: 90%;
   }
   .imgcontplan{
     width: 100%;
