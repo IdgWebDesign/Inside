@@ -204,7 +204,7 @@ $('.active-blog-slider').owlCarousel({
 							imsrc = "img/p (7).jpg";
 							MedCont= " ";
 							TitleCont= "ESCRITORIOS COMPARTIDOS";
-							DescCont= "Recepción." + '<br>' + "5 estaciones de trabajo de 8 puestos con tomas eléctricas en escritorios." + "<br>" + "Living room para 6, 3 y 2 personas " + "<br>" + "Baños, femenino, masculino." + "<br>" + "80 lockers." + "<br>" + "Puntos de acceso para impresoras. " + "<br>" + "2 call room con 1 mesa, 1 silla.";
+							DescCont= "Espacio común con variedad de estaciones pensadas para tu comodidad y la de tus invitados, contempla: <br> -Recepción." + '<br>' + "-5 estaciones de trabajo de 8 puestos con tomas eléctricas en escritorios." + "<br>" + "-Living room para 6, 3 y 2 personas " + "<br>" + "-Baños, femenino, masculino." + "<br>" + "80 lockers." + "<br>" + "-Puntos de acceso para impresoras. " + "<br>" + "-2 call room con 1 mesa, 1 silla.";
               
 							ColorCont= "#165b61";
 						break;
@@ -212,7 +212,7 @@ $('.active-blog-slider').owlCarousel({
 							imsrc = "img/p (6).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 9";
-							DescCont= "Capacidad para 6 personas <br> TV LED 40' <br> Aire Acondicionado <br> Estante <br> Tomas eléctricas en escritorio <br> Aberturas insonorizadas";
+							DescCont= "Área ideal para 6 personas que tendrán disponible TV LED 40', aire acondicionado, tomas eléctricas en escritorio y aberturas insonorizadas.";
 							ColorCont= "#4d0393";
 						break;
 						case 'im3': 
@@ -226,21 +226,21 @@ $('.active-blog-slider').owlCarousel({
 							imsrc = "img/p (5).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 8";
-							DescCont= "Capacidad para 12 personas <br> TV LED 40' <br> Aire acondicionado <br> Tomas eléctricas en escritorio <br> Aberturas insonorizadas";
+							DescCont= "Espacio con capacidad para 12 personas, incluye TV LED 40', AA, tomas eléctricas en escritorio y aberturas insonorizadas. ";
 							ColorCont= "#930a54";
 						break;
 						case 'im5': 
 							imsrc = "img/p (8).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 7";
-							DescCont= "Capacidad para 8 personas <br> Aire acondicionado <br> Tomas eléctricas en escritorio.";
+							DescCont= "Perfecto para equipos de trabajo de 8 personas, podrás disponer de TV LED 40', aire acondicionado, tomas eléctricas en escritorio.";
 							ColorCont= "#e20b7f";
 						break;
 						case 'im6': 
 							imsrc = "img/p (9).jpg";
 							MedCont= " ";
 							TitleCont= "SALA DE REUNIONES";
-							DescCont= "Capacidad para 6 personas <br> TV LED 40' <br> Aire acondicionado <br> Tomas eléctricas en escritorio";
+							DescCont= "Con capacidad para 6 personas, TV LED 40' para proyectar presentaciones, aire acondicionado  y pizarra.";
 							ColorCont= "#7a0be2";
 						break;
 						case 'im7': 
@@ -254,42 +254,42 @@ $('.active-blog-slider').owlCarousel({
 							imsrc = "img/p (12).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 2";
-							DescCont= "Capacidad para 6 personas <br> TV LED 40' <br> Aire acondicionado <br> Tomas eléctricas en escritorio";
+							DescCont= "Espacio dispuesto para grupos de 6 personas con TV LED 40, aire acondicionado y tomas eléctricas en escritorio.";
 							ColorCont= "#0731e6";
 						break;
 						case 'im9': 
 							imsrc = "img/p (3).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 6";
-							DescCont= "Capacidad para 6 personas <br> TV LED 40' <br> Aire acondicionado <br> Pizarra <br> Tomas eléctricas en escritorio";
+							DescCont= "Con capacidad para equipos de trabajo de 6 personas, disponibilidad de TV LED 40, aire acondicionado, pizarra y tomas eléctricas en escritorio.";
 							ColorCont= "#e60707";
 						break;
 						case 'im10': 
 							imsrc = "img/p (4).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 11";
-							DescCont= "Capacidad para 8 personas <br> TV LED 40' <br> Aire acondicionado <br> Tomas eléctricas en escritorio";
+							DescCont= "Pensando en la privacidad y comodidad este lugar funciona para 8 personas, tendrás acceso a TV LED 40', aire acondicionado y tomas eléctricas en escritorio.";
 							ColorCont= "#e0cd81";
 						break;
 						case 'im11': 
 							imsrc = "img/p (11).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 10";
-							DescCont= "Capacidad para 8 personas <br> TV LED 40' <br> Aire acondicionado <br> Tomas eléctricas en escritorio";
+							DescCont= "Cómoda área para trabajar 8 personas, dotada de TV LED 40', aire acondicionado y tomas eléctricas en escritorio.";
 							ColorCont= "#d58b17";
 						break;
 						case 'im12': 
 							imsrc = "img/p (1).jpg";
 							MedCont= " ";
 							TitleCont= "COCINA COMEDOR";
-							DescCont= "Mesa con capacidad para 20 y 14 personas, desayunador para 4. <br> Horno, microondas, heladera, máquina expendedora de café, infusiones, filtro de agua y vajilla. ";
+							DescCont= "Para brunch, almuerzos, café con clientes y hasta para cantar cumpleaños a tus compañeros, este lugar esta diseñado para vos. <br> Mesa capacidad para 20 y 14 personas, desayunador para 4. <br> Horno, microondas, heladera, máquina expendedora de café, venta de golosinas, infusiones, filtro de agua y vajilla. ";
 							ColorCont= "#d22bdc";
 						break;
 						case 'im13': 
 							imsrc = "img/p (2).jpg";
 							MedCont= "150 mts2";
 							TitleCont= "TERRAZA";
-							DescCont= "Mesas y sombrillas";
+							DescCont= "Lugar de esparcimiento, con conectividad WI-FI, ideal para tomar un break o tener una reunión informal al aire libre.";
 							ColorCont= "#9fb46e";
 						break;
 
