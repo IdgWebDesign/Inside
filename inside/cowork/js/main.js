@@ -197,7 +197,7 @@ $('.active-blog-slider').owlCarousel({
 					var TitleCont= "ESCRITORIOS COMPARTIDOS";
 					var DescCont= "Recepción";
           
-					var ColorCont= "#165b61";
+					
 
 					switch (IDEl){
 						case 'im1': 
@@ -206,91 +206,91 @@ $('.active-blog-slider').owlCarousel({
 							TitleCont= "ESCRITORIOS COMPARTIDOS";
 							DescCont= "Espacio común con variedad de estaciones pensadas para tu comodidad y la de tus invitados, contempla: <br> <br> -Recepción." + '<br>' + "-5 estaciones de trabajo de 8 puestos con tomas eléctricas en escritorios." + "<br>" + "-Living room para 6, 3 y 2 personas." + "<br>" + "-Baños, femenino, masculino." + "<br>" + "-80 lockers." + "<br>" + "-Puntos de acceso para impresoras. " + "<br>" + "-2 call room.";
               
-							ColorCont= "#165b61";
+							
 						break;
 						case 'im2': 
 							imsrc = "img/p (6).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 9";
 							DescCont= "Área ideal para 6 personas que tendrán disponible TV LED 40', aire acondicionado, tomas eléctricas en escritorio y aberturas insonorizadas.";
-							ColorCont= "#4d0393";
+							
 						break;
 						case 'im3': 
 							imsrc = "img/Banios Cowork.jpg";
 							MedCont= " ";
 							TitleCont= "BAÑOS";
 							DescCont= " ";
-							ColorCont= "#62e11d";
+							
 						break;
 						case 'im4': 
 							imsrc = "img/p (5).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 8";
 							DescCont= "Espacio con capacidad para 12 personas, incluye TV LED 40', AA, tomas eléctricas en escritorio y aberturas insonorizadas. ";
-							ColorCont= "#930a54";
+							
 						break;
 						case 'im5': 
 							imsrc = "img/p (8).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 7";
 							DescCont= "Perfecto para equipos de trabajo de 8 personas, podrás disponer de TV LED 40', aire acondicionado, tomas eléctricas en escritorio.";
-							ColorCont= "#e20b7f";
+							
 						break;
 						case 'im6': 
 							imsrc = "img/p (9).jpg";
 							MedCont= " ";
 							TitleCont= "SALA DE REUNIONES";
 							DescCont= "Con capacidad para 6 personas, TV LED 40' para proyectar presentaciones, aire acondicionado  y pizarra.";
-							ColorCont= "#7a0be2";
+							
 						break;
 						case 'im7': 
 							imsrc = "img/p (10).jpg";
 							MedCont= " ";
 							TitleCont= "CALLROOM";
 							DescCont= " ";
-							ColorCont= "#20d3c0";
+							
 						break;
 						case 'im8': 
 							imsrc = "img/p (12).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 2";
 							DescCont= "Espacio dispuesto para grupos de 6 personas con TV LED 40', aire acondicionado y tomas eléctricas en escritorio.";
-							ColorCont= "#0731e6";
+							
 						break;
 						case 'im9': 
 							imsrc = "img/p (3).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 6";
 							DescCont= "Con capacidad para equipos de trabajo de 6 personas, disponibilidad de TV LED 40', aire acondicionado, pizarra y tomas eléctricas en escritorio.";
-							ColorCont= "#e60707";
+							
 						break;
 						case 'im10': 
 							imsrc = "img/p (4).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 11";
 							DescCont= "Pensando en la privacidad y comodidad este lugar funciona para 8 personas, tendrás acceso a TV LED 40', aire acondicionado y tomas eléctricas en escritorio.";
-							ColorCont= "#e0cd81";
+							
 						break;
 						case 'im11': 
 							imsrc = "img/p (11).jpg";
 							MedCont= " ";
 							TitleCont= "OFICINA 10";
 							DescCont= "Cómoda área para trabajar 8 personas, dotada de TV LED 40', aire acondicionado y tomas eléctricas en escritorio.";
-							ColorCont= "#d58b17";
+							
 						break;
 						case 'im12': 
 							imsrc = "img/p (1).jpg";
 							MedCont= " ";
 							TitleCont= "COCINA COMEDOR";
 							DescCont= "Para brunch, almuerzos, café con clientes y hasta para cantar cumpleaños a tus compañeros, este lugar esta diseñado para vos. <br> <br> -Mesa capacidad para 20 y 14 personas, desayunador para 4. <br> -Horno. <br> -Microondas. <br> -Heladera. <br> -Máquina expendedora de café. <br> -Venta de golosinas. <br> -Infusiones. <br> -Filtro de agua. <br> -Vajilla. ";
-							ColorCont= "#d22bdc";
+							
 						break;
 						case 'im13': 
 							imsrc = "img/p (2).jpg";
 							MedCont= "150 mts2";
 							TitleCont= "TERRAZA";
 							DescCont= "Lugar de esparcimiento, con conectividad WI-FI, ideal para tomar un break o tener una reunión informal al aire libre.";
-							ColorCont= "#9fb46e";
+							
 						break;
 
 					}
@@ -300,7 +300,7 @@ $('.active-blog-slider').owlCarousel({
 					$("#titulocontPlan").html(TitleCont);
 					$("#desccontPlan").html(DescCont);
           
-					document.querySelector(":root").style.setProperty('--triangle-color', ColorCont);
+					
 				}));
 
 				document.querySelector("#closer").addEventListener('click', () =>{
@@ -326,7 +326,7 @@ $('.active-blog-slider').owlCarousel({
         document.querySelector(".floatingCont").addEventListener('mouseenter', () => {
           document.querySelector(".textcontplan").style.width = "40%"
           document.querySelector(".imgcontplan").style.width = "60%"
-          document.querySelector(".trianglecontplan").style.opacity = "1"
+          
           document.querySelector(".flexfrtext").style.transition = "4s"
           document.querySelector(".flexfrtext").style.display = "flex"
           setTimeout(() => {
@@ -342,7 +342,7 @@ $('.active-blog-slider').owlCarousel({
             document.querySelector(".flexfrtext").style.display = "none"
             document.querySelector(".textcontplan").style.width = "0%"
             document.querySelector(".imgcontplan").style.width = "100%"
-            document.querySelector(".trianglecontplan").style.opacity = "0"
+            
             }, 600);
             
         })

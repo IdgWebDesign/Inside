@@ -49,9 +49,7 @@ a/*--------------------------- Color variations ----------------------*/
   font-weight: 300;
 }
 
-:root {
-  --triangle-color: brown;
-}
+
 
 @font-face {
   font-family: "Flama-M";
@@ -3263,7 +3261,7 @@ width: 100%;
   height:43%;
   width: 41.2%;
   position: absolute;
-  background-color: #165b61;
+  background-color: black;
   bottom: 34.7%;
   right: 4%;
   transition: 0.5s;
@@ -3274,7 +3272,7 @@ width: 100%;
   height:19.3%;
   width: 9.5%;
   position: absolute;
-  background-color: #4d0393;
+  background-color: black;
   top: 3.8%;
   right: 1%;
   transition: 0.5s;
@@ -3285,7 +3283,7 @@ width: 100%;
   height:19.3%;
   width: 12%;
   position: absolute;
-  background-color: #62e11d;
+  background-color: #6e623c;
   top: 3.8%;
   right: 10.5%;
   transition: 0.5s;
@@ -3296,7 +3294,7 @@ width: 100%;
   height:20%;
   width: 16.3%;
   position: absolute;
-  background-color: #930a54;
+  background-color: #6e623c;
   bottom: 14.9%;
   right: 4%;
   transition: 0.5s;
@@ -3307,7 +3305,7 @@ width: 100%;
   height:20%;
   width: 11.8%;
   position: absolute;
-  background-color: #e20b7f;
+  background-color: black;
   bottom: 14.9%;
   right: 20.4%;
   transition: 0.5s;
@@ -3318,7 +3316,7 @@ width: 100%;
   height:20%;
   width: 8.5%;
   position: absolute;
-  background-color: #7a0be2;
+  background-color: #6e623c;
   bottom: 14.9%;
   right: 32.2%;
   transition: 0.5s;
@@ -3328,7 +3326,7 @@ width: 100%;
   height:9%;
   width: 9%;
   position: absolute;
-  background-color: #20d3c0;
+  background-color: black;
   bottom: 26%;
   right: 40.4%;
   transition: 0.5s;
@@ -3339,7 +3337,7 @@ width: 100%;
   height:21.3%;
   width: 9.6%;
   position: absolute;
-  background-color: #0731e6;
+  background-color: #6e623c;
   top: 5%;
   left: 33.7%;
   transition: 0.5s;
@@ -3350,7 +3348,7 @@ width: 100%;
   height:21.3%;
   width: 8.6%;
   position: absolute;
-  background-color: #e60707;
+  background-color: black;
   top: 5%;
   left: 25%;
   transition: 0.5s;
@@ -3360,7 +3358,7 @@ width: 100%;
   height:20%;
   width: 12.2%;
   position: absolute;
-  background-color: #e0cd81;
+  background-color: #6e623c;
   top: 33%;
   left: 29.5%;
   transition: 0.5s;
@@ -3370,7 +3368,7 @@ width: 100%;
   height:20.5%;
   width: 12.2%;
   position: absolute;
-  background-color: #d58b17;
+  background-color: black;
   bottom: 26.5%;
   left: 29.5%;
   transition: 0.5s;
@@ -3380,7 +3378,7 @@ width: 100%;
   height:15%;
   width: 24.5%;
   position: absolute;
-  background-color: #d22bdc;
+  background-color: black;
   bottom: 3.5%;
   left: 0.6%;
   transition: 0.5s;
@@ -3390,7 +3388,7 @@ width: 100%;
   height:78.5%;
   width: 24.9%;
   position: absolute;
-  background-color: #9fb46e;
+  background-color: #6e623c;
   bottom: 18.5%;
   left: 0.2%;
   transition: 0.5s;
@@ -3445,12 +3443,13 @@ opacity: 0.8;
 .textoscontactosep{
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .textIscontact{
   font-family:'Flama-B'; 
   font-size: calc(1em + 0.5vw);
-  margin: 0% 1%;
+  margin: 0.2% 0%;
   color: black;
 }
 
@@ -3496,13 +3495,6 @@ opacity: 0.8;
   background: linear-gradient(45deg, rgba(49,49,49,0.4990371148459384) 20%, rgba(255,255,255,0.09567577030812324) 50%, rgba(49,49,49,0.5046393557422969) 80%);
 }
 
-.trianglecontplan{
-  justify-content: flex-end;
-  display: flex;
-  opacity: 0;
-  
-  transition: 0.5s;
-}
 
 .flexfrtext{
   
@@ -3541,29 +3533,11 @@ padding: 0% 5%;
   color: white;
 }
 
-.triangle-up-right {
-  width: 0;
-  height: 0;
-  padding-left:10%;
-  padding-top: 10%;
-  overflow: hidden;
 
-}
-.triangle-up-right:after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  margin-left:-500px;
-  margin-top:-500px;
-
-  border-left: 500px solid transparent;
-  border-top: 500px solid var(--triangle-color);
-}
 
 .ittx{
-  font-size: calc(1em + 1vw);
-  font-family: 'Flama-CB';
+  font-size: calc(0.2em + 0.9vw);
+  font-family: 'Flama-Lg';
   opacity: 0;
   color: white;
   transition: 1s;
@@ -3625,6 +3599,9 @@ padding: 0% 5%;
 }
 
 @media (max-width: 768px){
+  .p1-gradient-bg, .primary-btn, .primary-btn2:hover, .single-feature:hover, .video-area .overlay-bg, .single-footer-widget .click-btn, .generic-banner{
+    background-image: url(../img/PORTADA\ VIDEO\ COWORK\ 768x490\ PX.png);
+  }
   .planspef{
     width: 90%;
   }
@@ -3646,9 +3623,7 @@ padding: 0% 5%;
   .flexfrtext{
     opacity: 1;
   }
-  .trianglecontplan{
-    display: none;
-  }
+ 
 
   .flexfrtext p{
     margin-top: 1%;

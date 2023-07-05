@@ -223,27 +223,27 @@ $('.active-blog-slider').owlCarousel({
         document.querySelector('.frselector').style.overflow = "hidden";
         var IDEl = El.id;
         var imsrc = "img/r (4).jpg";
-        var colorCont= "#e90e8a";
+        
         var TitleCont= "SALÓN DE USOS MULTIPLES: <br>  AUDITORIO/PISTA DE BAILE";
         switch (IDEl){
           case 'im1': 
             imsrc = "img/r (4).jpg";
-            colorCont= "#e90e8a"
-            TitleCont= "SALÓN DE USOS MULTIPLES: <br>  AUDITORIO/PISTA DE BAILE"
+            
+            TitleCont= "SALÓN DE USOS MULTIPLES: AUDITORIO/PISTA DE BAILE"
           break;
           case 'im4': 
             imsrc = "img/p(2).jpg";
-            colorCont= "#5da734"
+            
             TitleCont= "BAÑOS"
           break;
           case 'im5': 
             imsrc = "img/r (5).jpg";
-            colorCont= "#49086b"
+            
             TitleCont= "SALÓN PRINCIPAL"
           break;
           case 'im7': 
             imsrc = "img/p (1).jpg";
-            colorCont= "#28877f"
+            
             TitleCont= "BARRA"
           break;
         
@@ -252,7 +252,7 @@ $('.active-blog-slider').owlCarousel({
 
         $("#imgPrinc").attr("src",imsrc);
         $("#titulocontPlan").html(TitleCont);
-        document.querySelector(":root").style.setProperty('--triangle-color', colorCont)
+        
      }));
 
      document.querySelector("#closer").addEventListener('click', () =>{
